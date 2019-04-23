@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DifferentSurvey';
+  clickMex : string = "click me";
+  changeMex(){
+    if(this.clickMex == "click me")
+      this.clickMex = "well Done";
+      else
+        this.clickMex = "click me";
+
+  }
 }
