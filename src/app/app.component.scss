@@ -1,8 +1,12 @@
 .container{
     display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+    //height: 100vh;
+    // justify-content: center;
+    // align-items: center;
+}
+.user{
+    border: 1px solid black;
+    //display: inline;
 }
 button{
 

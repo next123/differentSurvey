@@ -1,3 +1,8 @@
-<div class="container">
-<button (click)="changeMex()">{{clickMex}}</button>
+<div class="container" >
+<div class="users" *ngFor="let utente of utenti">
+<div class="user"><h3>{{utente.nome}}</h3></div>
+</div>
+
+<!-- <button (click)="changeMex()">{{clickMex}}</button> -->
+
 </div>
