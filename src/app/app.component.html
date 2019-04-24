@@ -1,6 +1,8 @@
 <div class="container" >
 <div class="users" *ngFor="let utente of utenti">
-<div class="user"><h3>{{utente.nome}}</h3></div>
+<div class="user" [ngStyle]="{ 'border-color' : utente.color}">
+    <h2>{{utente.nome}}</h2>
+</div>
 </div>
 
 <!-- <button (click)="changeMex()">{{clickMex}}</button> -->
