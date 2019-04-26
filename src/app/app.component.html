@@ -2,6 +2,8 @@
 <div class="users" *ngFor="let utente of utenti">
 <div class="user" [ngStyle]="{ 'border-color' : utente.color}">
     <h2>{{utente.nome}}</h2>
+    <div class="star" *ngFor="let star of [].constructor(utente.stelle)"></div>
+    <img src="../assets/star.jpg" >
 </div>
 </div>
 
